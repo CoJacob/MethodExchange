@@ -32,6 +32,8 @@
     SEL selectorC = @selector(cg_viewDidLoadC);
     Method methodC = class_getInstanceMethod(class, selectorC);
     method_exchangeImplementations(method, methodC);
+    
+    
 }
 
 @end
